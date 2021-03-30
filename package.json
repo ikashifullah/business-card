@@ -1,6 +1,6 @@
 {
-  "name": "business-card",
-  "version": "1.0.0",
+  "name": "ikashifullah-business-card",
+  "version": "1.0.1",
   "description": "A personal card for Kashif Ullah",
   "main": "/bin/card.js",
   "bin": {
@@ -13,6 +13,10 @@
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikashifullah/business-card.git"
   },
   "keywords": [
     "card",
@@ -36,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/ikashifullah/business-card/issues"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com/"
+  }
 }
