@@ -14,9 +14,6 @@
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/ikashifullah"
-  },
   "keywords": [
     "card",
     "npm",
