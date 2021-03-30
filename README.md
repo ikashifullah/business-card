@@ -1,2 +1,8 @@
-# business-card
-My personal Business Card on NPM
+It's me, Kashif Ullah!
+
+# Usage
+
+## npm
+```
+npx ikashifullah
+```
